@@ -1,0 +1,6 @@
+@Vhan9.WebApiLand_HostAddress = http://localhost:5233
+
+GET {{Vhan9.WebApiLand_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

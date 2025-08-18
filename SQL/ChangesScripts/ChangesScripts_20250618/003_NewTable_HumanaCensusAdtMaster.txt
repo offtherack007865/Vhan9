@@ -1,0 +1,59 @@
+-- SQL Instance Name:  smg-sql01
+USE [SimplifyVbcAdt8];
+IF EXISTS(SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'HumanaCensusAdtMaster' AND TABLE_SCHEMA = 'dbo')
+   DROP TABLE [dbo].[HumanaCensusAdtMaster];
+GO
+/* -----------------------------------------------------------------------------------------------------------
+   Table Name  :  HumanaCensusAdtMaster
+   Business Analyis:
+   Project/Process :   
+   Description     :  The Master table for the  Humana ADT Input file for this NRC Run
+                        
+   Author          :   Philip Morrison
+   Create Date     :   6/18/2025 
+
+   ***********************************************************************************************************
+   **         Change History                                                                                **
+   ***********************************************************************************************************
+
+   Date       Version    Author             Description
+   --------   --------   -----------        ------------
+   6/18/2025 1.01.001   Philip Morrison    Created
+*/ -----------------------------------------------------------------------------------------------------------                                   
+
+
+IF EXISTS(SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'HumanaCensusAdtMaster' AND TABLE_SCHEMA = 'dbo')
+   DROP TABLE [dbo].[HumanaCensusAdtMaster];
+GO
+
+CREATE TABLE [dbo].[HumanaCensusAdtMaster]
+(
+  [HumanaCensusAdtMasterID] [int] IDENTITY(1,1) NOT NULL
+  ,[Dummy1] [nvarchar] (50) NOT NULL
+  ,[PatientName] [nvarchar] (300) NOT NULL
+  ,[PatientLastName] [nvarchar] (300) NOT NULL
+  ,[PatienFirstName] [nvarchar] (300) NOT NULL
+  ,[DateOfBirth] [nvarchar] (300) NOT NULL
+  ,[PaneledProvider] [nvarchar] (300) NOT NULL
+  ,[SdohDetails] [nvarchar] (300) NOT NULL
+  ,[SrfDetails] [nvarchar] (300) NOT NULL
+  ,[SrfFlagYOrN] [nvarchar] (1) NOT NULL
+  ,[StayType] [nvarchar] (100) NOT NULL
+  ,[AdmitDate] [datetime] NOT NULL
+  ,[DischargeDate] [datetime] NOT NULL
+  ,[AuthStatus] [nvarchar] (300) NOT NULL
+  ,[Disposition] [nvarchar] (300) NOT NULL
+  ,[PatEligible] [nvarchar] (300) NOT NULL
+  ,[PatEligibleThrough] [nvarchar] (300) NOT NULL
+  ,[ReadmitRisk] [nvarchar] (300) NOT NULL
+  ,[Readmit] [nvarchar] (300) NOT NULL
+  ,[Category] [nvarchar] (300) NOT NULL
+  ,[DxDescription] [nvarchar] (300) NOT NULL
+  ,[FacilityOrPractitioner] [nvarchar] (300) NOT NULL
+  ,[NewYOrN] [nvarchar] (1) NOT NULL
+  ,[FullFilename] [nvarchar] (MAX) NOT NULL  
+CONSTRAINT [PK_HumanaCensusAdtMaster] PRIMARY KEY CLUSTERED 
+(
+	[HumanaCensusAdtMasterID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]

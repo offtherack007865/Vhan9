@@ -1,0 +1,55 @@
+-- SQL Instance Name:  smg-sql01
+USE [Staging];
+IF EXISTS(SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'HumanaCensusAdt' AND TABLE_SCHEMA = 'dbo')
+   DROP TABLE [dbo].[HumanaCensusAdt];
+GO
+/* -----------------------------------------------------------------------------------------------------------
+   Table Name  :  HumanaCensusAdt
+   Business Analyis:
+   Project/Process :   
+   Description     :  The Staging table for the  Humana ADT Input file for this NRC Run
+                        
+   Author          :   Philip Morrison
+   Create Date     :   6/18/2025 
+
+   ***********************************************************************************************************
+   **         Change History                                                                                **
+   ***********************************************************************************************************
+
+   Date       Version    Author             Description
+   --------   --------   -----------        ------------
+   6/18/2025 1.01.001   Philip Morrison    Created
+*/ -----------------------------------------------------------------------------------------------------------                                   
+
+
+CREATE TABLE [dbo].[HumanaCensusAdt]
+(
+  [HumanaCensusAdtID] [int] IDENTITY(1,1) NOT NULL
+  ,[Dummy1] [nvarchar] (MAX) NOT NULL
+  ,[PatientName] [nvarchar] (MAX) NOT NULL
+  ,[PatientLastName] [nvarchar] (MAX) NOT NULL
+  ,[PatienFirstName] [nvarchar] (MAX) NOT NULL
+  ,[DateOfBirth] [nvarchar] (MAX) NOT NULL
+  ,[PaneledProvider] [nvarchar] (MAX) NOT NULL
+  ,[SdohDetails] [nvarchar] (MAX) NOT NULL
+  ,[SrfDetails] [nvarchar] (MAX) NOT NULL
+  ,[SrfFlagYOrN] [nvarchar] (MAX) NOT NULL
+  ,[StayType] [nvarchar] (MAX) NOT NULL
+  ,[AdmitDate] [nvarchar] (MAX) NOT NULL
+  ,[DischargeDate] [nvarchar] (MAX) NOT NULL
+  ,[AuthStatus] [nvarchar] (MAX) NOT NULL
+  ,[Disposition] [nvarchar] (MAX) NOT NULL
+  ,[PatEligible] [nvarchar] (MAX) NOT NULL
+  ,[PatEligibleThrough] [nvarchar] (MAX) NOT NULL
+  ,[ReadmitRisk] [nvarchar] (MAX) NOT NULL
+  ,[Readmit] [nvarchar] (MAX) NOT NULL
+  ,[Category] [nvarchar] (MAX) NOT NULL
+  ,[DxDescription] [nvarchar] (MAX) NOT NULL
+  ,[FacilityOrPractitioner] [nvarchar] (MAX) NOT NULL
+  ,[NewYOrN] [nvarchar] (MAX) NOT NULL
+  ,[FullFilename] [nvarchar] (MAX) NOT NULL
+CONSTRAINT [PK_HumanaCensusAdt] PRIMARY KEY CLUSTERED 
+(
+	[HumanaCensusAdtID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]

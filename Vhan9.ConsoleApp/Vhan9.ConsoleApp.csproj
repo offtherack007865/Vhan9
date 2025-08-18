@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;CS8600;CS8601;CS8602;CS8603;CS8604;CS8618</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;CS8600;CS8601;CS8602;CS8603;CS8604;CS8618</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EmailWebApiLand9\EmailWebApiLand9.CallEmailWebApiLand\EmailWebApiLand9.CallEmailWebApiLand.csproj" />
+    <ProjectReference Include="..\..\EmailWebApiLand9\EmailWebApiLand9.Data\EmailWebApiLand9.Data.csproj" />
+    <ProjectReference Include="..\Vhan9.CallWebApiLand\Vhan9.CallWebApiLand.csproj" />
+    <ProjectReference Include="..\Vhan9.data\Vhan9.data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

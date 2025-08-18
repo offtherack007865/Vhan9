@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vhan9.WebApiLand", "Vhan9.WebApiLand\Vhan9.WebApiLand.csproj", "{BA242E16-2E84-4327-AC7E-197D85D0427B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vhan9.data", "Vhan9.data\Vhan9.data.csproj", "{64ABB03A-8CEE-494D-88B3-4982D799DD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vhan9.CallWebApiLand", "Vhan9.CallWebApiLand\Vhan9.CallWebApiLand.csproj", "{E7B4BFA4-A849-4533-96C7-D38279AB598E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vhan9.ConsoleApp", "Vhan9.ConsoleApp\Vhan9.ConsoleApp.csproj", "{3ED52821-932F-469E-A867-C3AE9A232699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWebApiLand9.Data", "..\EmailWebApiLand9\EmailWebApiLand9.Data\EmailWebApiLand9.Data.csproj", "{DA17C095-7B63-60FA-311C-BE046783F924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWebApiLand9.CallEmailWebApiLand", "..\EmailWebApiLand9\EmailWebApiLand9.CallEmailWebApiLand\EmailWebApiLand9.CallEmailWebApiLand.csproj", "{4BAEBAFB-C1B2-6762-302E-CBB6EEF6059A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA242E16-2E84-4327-AC7E-197D85D0427B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA242E16-2E84-4327-AC7E-197D85D0427B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA242E16-2E84-4327-AC7E-197D85D0427B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA242E16-2E84-4327-AC7E-197D85D0427B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64ABB03A-8CEE-494D-88B3-4982D799DD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64ABB03A-8CEE-494D-88B3-4982D799DD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64ABB03A-8CEE-494D-88B3-4982D799DD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64ABB03A-8CEE-494D-88B3-4982D799DD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B4BFA4-A849-4533-96C7-D38279AB598E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B4BFA4-A849-4533-96C7-D38279AB598E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B4BFA4-A849-4533-96C7-D38279AB598E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B4BFA4-A849-4533-96C7-D38279AB598E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED52821-932F-469E-A867-C3AE9A232699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED52821-932F-469E-A867-C3AE9A232699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED52821-932F-469E-A867-C3AE9A232699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED52821-932F-469E-A867-C3AE9A232699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA17C095-7B63-60FA-311C-BE046783F924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA17C095-7B63-60FA-311C-BE046783F924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA17C095-7B63-60FA-311C-BE046783F924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA17C095-7B63-60FA-311C-BE046783F924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAEBAFB-C1B2-6762-302E-CBB6EEF6059A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAEBAFB-C1B2-6762-302E-CBB6EEF6059A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAEBAFB-C1B2-6762-302E-CBB6EEF6059A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAEBAFB-C1B2-6762-302E-CBB6EEF6059A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {744D352F-3904-4EC3-BE6A-6CFFD44E53AE}
+	EndGlobalSection
+EndGlobal
