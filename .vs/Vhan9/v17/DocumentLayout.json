@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\source\\repos\\Vhan9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|d:\\source\\repos\\vhan9\\vhan9.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|solutionrelative:vhan9.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|d:\\source\\repos\\vhan9\\vhan9.consoleapp\\mainops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|solutionrelative:vhan9.consoleapp\\mainops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|d:\\source\\repos\\vhan9\\vhan9.consoleapp\\getsourcefilelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|solutionrelative:vhan9.consoleapp\\getsourcefilelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7B4BFA4-A849-4533-96C7-D38279AB598E}|Vhan9.CallWebApiLand\\Vhan9.CallWebApiLand.csproj|d:\\source\\repos\\vhan9\\vhan9.callwebapiland\\callwebapilandclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7B4BFA4-A849-4533-96C7-D38279AB598E}|Vhan9.CallWebApiLand\\Vhan9.CallWebApiLand.csproj|solutionrelative:vhan9.callwebapiland\\callwebapilandclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|d:\\source\\repos\\vhan9\\vhan9.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|solutionrelative:vhan9.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|d:\\source\\repos\\vhan9\\vhan9.consoleapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|solutionrelative:vhan9.consoleapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BA242E16-2E84-4327-AC7E-197D85D0427B}|Vhan9.WebApiLand\\Vhan9.WebApiLand.csproj|d:\\source\\repos\\vhan9\\vhan9.webapiland\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA242E16-2E84-4327-AC7E-197D85D0427B}|Vhan9.WebApiLand\\Vhan9.WebApiLand.csproj|solutionrelative:vhan9.webapiland\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA242E16-2E84-4327-AC7E-197D85D0427B}|Vhan9.WebApiLand\\Vhan9.WebApiLand.csproj|d:\\source\\repos\\vhan9\\vhan9.webapiland\\controllers\\opscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA242E16-2E84-4327-AC7E-197D85D0427B}|Vhan9.WebApiLand\\Vhan9.WebApiLand.csproj|solutionrelative:vhan9.webapiland\\controllers\\opscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|d:\\source\\repos\\vhan9\\vhan9.consoleapp\\getsourcefilelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED52821-932F-469E-A867-C3AE9A232699}|Vhan9.ConsoleApp\\Vhan9.ConsoleApp.csproj|solutionrelative:vhan9.consoleapp\\getsourcefilelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +70,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\source\\repos\\Vhan9\\Vhan9.WebApiLand\\appsettings.json",
+              "RelativeDocumentMoniker": "Vhan9.WebApiLand\\appsettings.json",
+              "ToolTip": "D:\\source\\repos\\Vhan9\\Vhan9.WebApiLand\\appsettings.json",
+              "RelativeToolTip": "Vhan9.WebApiLand\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T17:35:26.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainOps.cs",
               "DocumentMoniker": "D:\\source\\repos\\Vhan9\\Vhan9.ConsoleApp\\MainOps.cs",
               "RelativeDocumentMoniker": "Vhan9.ConsoleApp\\MainOps.cs",
               "ToolTip": "D:\\source\\repos\\Vhan9\\Vhan9.ConsoleApp\\MainOps.cs",
               "RelativeToolTip": "Vhan9.ConsoleApp\\MainOps.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAD4vz8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAD4vzwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T20:15:06.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "GetSourceFileList.cs",
               "DocumentMoniker": "D:\\source\\repos\\Vhan9\\Vhan9.ConsoleApp\\GetSourceFileList.cs",
               "RelativeDocumentMoniker": "Vhan9.ConsoleApp\\GetSourceFileList.cs",
@@ -87,25 +104,24 @@
               "RelativeToolTip": "Vhan9.ConsoleApp\\GetSourceFileList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:00:37.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T20:00:37.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CallWebApiLandClass.cs",
               "DocumentMoniker": "D:\\source\\repos\\Vhan9\\Vhan9.CallWebApiLand\\CallWebApiLandClass.cs",
               "RelativeDocumentMoniker": "Vhan9.CallWebApiLand\\CallWebApiLandClass.cs",
               "ToolTip": "D:\\source\\repos\\Vhan9\\Vhan9.CallWebApiLand\\CallWebApiLandClass.cs",
               "RelativeToolTip": "Vhan9.CallWebApiLand\\CallWebApiLandClass.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAEwB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAlwC0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T19:58:51.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\source\\repos\\Vhan9\\Vhan9.ConsoleApp\\appsettings.json",
               "RelativeDocumentMoniker": "Vhan9.ConsoleApp\\appsettings.json",
@@ -124,20 +140,20 @@
               "RelativeDocumentMoniker": "Vhan9.WebApiLand\\Controllers\\OpsController.cs",
               "ToolTip": "D:\\source\\repos\\Vhan9\\Vhan9.WebApiLand\\Controllers\\OpsController.cs",
               "RelativeToolTip": "Vhan9.WebApiLand\\Controllers\\OpsController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T19:41:21.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\source\\repos\\Vhan9\\Vhan9.ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "Vhan9.ConsoleApp\\Program.cs",
               "ToolTip": "D:\\source\\repos\\Vhan9\\Vhan9.ConsoleApp\\Program.cs",
               "RelativeToolTip": "Vhan9.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAkwIEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAD4v3YAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T19:40:36.198Z",
               "EditorCaption": ""
